@@ -14,7 +14,7 @@ ReactDOM.render(
        <Router>
       <Header/>
       <Routes>
-        <Route exact path="/" element={<Search />} />
+        <Route exact path="/Search" element={<Search />} />
         <Route path="/Favorites" element={<Favorites/>} />
         <Route path="/About" element={<About />} />
       </Routes>

@@ -22,7 +22,7 @@ const header = () => {
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
           <Nav>
-            <LinkContainer to="/">
+            <LinkContainer to="Search">
                 <Nav.Link>Search</Nav.Link>
             </LinkContainer>
             <LinkContainer to="Favorites">
